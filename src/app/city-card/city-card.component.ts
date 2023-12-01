@@ -17,7 +17,6 @@ export class CityCardComponent implements OnInit {
    
   ) { }
   
-
   measureOfTemp: string = '';
   measureOfWindSpeed: string = '';
   measureOfPressure: string = '';
