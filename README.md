@@ -1,4 +1,7 @@
-# WeatherApp
+# Weather Forecaster
+
+Our weather application provides users with the ability to search for weather forecasts by city or specific location. Upon entering a desired location into the search bar, the app promptly displays current weather conditions along with future weather predictions, efficiently processing user inputs. Additionally, the app features a Celsius to Fahrenheit temperature converter, enhancing user convenience. It visually enriches the user experience by depicting weather conditions through descriptive icons, offering an intuitive and engaging interface.
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.6.
 
