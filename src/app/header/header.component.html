@@ -1,0 +1,23 @@
+<div class="header">
+    <div class="header__wrapper">
+        <a href="/" class="header__logo">
+          <span class="wi wi-day-sunny"></span>
+        </a>
+        <h1 class="header__brand">forecast</h1>
+        <div class="header__right-block">
+          C
+          <ng-toggle
+            class="header__unit-switcher"
+            size="'small'"
+            [color]="{
+                unchecked: '#939da2',
+                checked: '#f62d51'
+              }"
+            [(ngModel)]="isUnitSwitcherChecked"
+            (change)="onChangeUnitSwitcher()">
+          </ng-toggle>
+          F
+        </div>
+    </div>
+  </div>
+  

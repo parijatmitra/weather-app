@@ -1,13 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
-// @import './partials/normalize';
-// @import './partials/fonts';
-// @import './variables';
-
-@import './styles/variables';
-@import './styles/partials/fonts';
-@import './styles/partials/normalize';
-@import './../node_modules/weather-icons/css/weather-icons.min.css';
-
+@import './partials/normalize';
+@import './partials/fonts';
+@import './variables';
 
 /**
  * Main
@@ -105,4 +98,3 @@
    padding: 0 3%;
    margin: 4em auto;
  }
-
